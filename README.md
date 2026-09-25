@@ -2,7 +2,7 @@
 
 Plateforme de gestion de cours éducatifs — web (PWA), mobile et API.
 
-## 📁 Structure
+## Structure
 
 | Dossier | Description | Stack |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ Plateforme de gestion de cours éducatifs — web (PWA), mobile et API.
 | [`backend/`](backend) | API REST | Node.js · Express · MongoDB (Mongoose) |
 | [`mobile/`](mobile) | Application mobile | React Native · Expo |
 
-## 🚀 Démarrage
+## Démarrage
 
 Chaque composant a son propre `package.json` et ses instructions. En résumé :
 
@@ -24,7 +24,3 @@ cd backend && npm install && npm start
 # Mobile
 cd mobile && npm install && npm start
 ```
-
-## 👤 Auteur
-
-**Ahmad Souleymane** — [@ahmadsouleymane](https://github.com/ahmadsouleymane)
