@@ -1,0 +1,67 @@
+{
+  "name": "MisterAll - Apprentissage IA",
+  "short_name": "MisterAll",
+  "description": "Application éducative intelligente avec IA - Générez résumés, fiches et quiz depuis vos cours. Apprenez plus vite et mieux.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "technology", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Nouveau cours",
+      "short_name": "Nouveau",
+      "description": "Ajouter un nouveau cours",
+      "url": "/add",
+      "icons": []
+    },
+    {
+      "name": "Mes cours",
+      "short_name": "Cours",
+      "description": "Voir tous mes cours",
+      "url": "/all-courses",
+      "icons": []
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "share_target": {
+    "action": "/add",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "document",
+          "accept": ["application/pdf", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]
+        }
+      ]
+    }
+  }
+}
